@@ -3,7 +3,11 @@ import sys
 os.system("clear")
 print("""
 \033[33m
-
+╭─────────────────╮
+│
+│
+╰────────────────╯
+""")
 
 # Script Manajemen Daftar Donatur dan Sumbangan
 def tampilkan_menu():
