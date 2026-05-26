@@ -46,7 +46,7 @@ while True:
             print("Belum ada data donatur yang tercatat.")
         else:
             print("-" * 35)
-            print(f"{'NAMA DONATUR':<20} | {'JUMLAH (Rp)':<12}")
+            print(f"033[38;5;39m{'NAMA DONATUR':<20} | {'JUMLAH (Rp)':<12}")
             print("-" * 35)
             for i, data in enumerate(daftar_donasi, 1):
                 # Memformat angka menjadi format mata uang
