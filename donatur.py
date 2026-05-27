@@ -31,13 +31,13 @@ while True:
     pilihan = input("Pilih menu (1-4): ")
 
     if pilihan == '1':
-        print("\033[33m\n--- Tambah Donatur Baru ---")
-        nama = input("\033[33mNama Donatur : ")
+        print("\033[38;5;220m\n--- Tambah Donatur Baru ---")
+        nama = input("\033[38;5;220mNama Donatur : ")
         try:
             # Memastikan input berupa angka (integer)
-            jumlah = int(input("\033[37mJumlah Uang Sumbangan (Rp): "))
-            no_rek = int(input("\033[37mno_rek ():  "))
-            atas_nama = input("\033[33matas_nama: ") 
+            jumlah = int(input("\033[38;5;220mJumlah Uang Sumbangan (Rp): "))
+            no_rek = int(input("\033[38;5;220mno_Rek ():  "))
+            atas_nama = input("\033[38;5;220matas_nama: ") 
             # Simpan data ke dalam list
             daftar_donasi.append({
                 "nama": nama,
