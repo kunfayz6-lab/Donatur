@@ -37,9 +37,8 @@ while True:
             # Memastikan input berupa angka (integer)
             jumlah = int(input("\033[37mJumlah Uang Sumbangan (Rp): "))
             no_rek = int(input("\033[37mno_rek ():  "))
-
-        print("\033[33m\n--- a/n ---")
-        nama = input("\033[33ma/n : ")       
+            print("\033[33m\n--- a/n ---")
+            nama = input("\033[33ma/n : ")       
             # Simpan data ke dalam list
             daftar_donasi.append({
                 "nama": nama,
