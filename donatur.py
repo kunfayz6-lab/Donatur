@@ -25,8 +25,8 @@ def tampilkan_menu():
 
 # Inisialisasi list untuk menyimpan data dictionary
 daftar_donasi = []
-
-while True:\033[33m
+\033[33m
+while True:
     tampilkan_menu()
     pilihan = input("Pilih menu (1-4): ")
 
