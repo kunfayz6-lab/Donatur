@@ -35,7 +35,7 @@ while True:
         nama = input("\033[33mNama Donatur : ")
         try:
             # Memastikan input berupa angka (integer)
-            jumlah = int(input("\033[38;5;220mJumlah Uang Sumbangan (Rp): "\033[0m))
+            jumlah = int(input("\033[38;5;220mJumlah Uang Sumbangan (Rp): "))
             
             # Simpan data ke dalam list
             daftar_donasi.append({
