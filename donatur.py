@@ -43,7 +43,7 @@ while True:
                 "nama": nama,
                 "jumlah": jumlah,
                 "no_rek": no_rek,
-                "atas_nama: atas_nama
+                "atas_nama": atas_nama
             })
             print("Data donatur berhasil ditambahkan!")
         except ValueError:
