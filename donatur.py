@@ -32,17 +32,17 @@ while True:
 
     if pilihan == '1':
         print("\033[33m\n--- Tambah Donatur Baru ---")
-        nama = input("Nama Donatur : \033[0m")
+        nama = input("\033[33mNama Donatur : ")
         try:
             # Memastikan input berupa angka (integer)
-            jumlah = int(input("Jumlah Uang Sumbangan (Rp): "))
+            jumlah = int(input("\033[38;5;220mJumlah Uang Sumbangan (Rp): "\033[0m))
             
             # Simpan data ke dalam list
             daftar_donasi.append({
                 "nama": nama,
                 "jumlah": jumlah
             })
-            print("\033[38;5;220mData donatur berhasil ditambahkan!")
+            print("Data donatur berhasil ditambahkan!")
         except ValueError:
             print("Input jumlah uang harus berupa angka (integer) tanpa titik/koma!\033[0m")
 
