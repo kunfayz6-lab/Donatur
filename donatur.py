@@ -36,7 +36,7 @@ while True:
         try:
             # Memastikan input berupa angka (integer)
             jumlah = int(input("\033[37mJumlah Uang Sumbangan (Rp): "))
-            no_rek = int(input("\033[37mno_rek ():  ")
+            no_rek = int(input("\033[37mno_rek ():  "))
 
             
             # Simpan data ke dalam list
