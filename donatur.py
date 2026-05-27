@@ -25,13 +25,13 @@ def tampilkan_menu():
 
 # Inisialisasi list untuk menyimpan data dictionary
 daftar_donasi = []
-\033[33m
+
 while True:
     tampilkan_menu()
     pilihan = input("Pilih menu (1-4): ")
 
     if pilihan == '1':
-        print("\n--- Tambah Donatur Baru ---")
+        print("\033[33m\n--- Tambah Donatur Baru ---")
         nama = input("Nama Donatur : \033[0m")
         try:
             # Memastikan input berupa angka (integer)
