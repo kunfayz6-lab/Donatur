@@ -73,7 +73,7 @@ while True:
             print(f"Rata-rata Sumbangan  : Rp. {rata_rata:,.2f}")
 
     elif pilihan == '4':
-        print("\n\033[33mTERIMA KASIH SUDAH MEMPERCAYAKAN AMANAHNYA MELALUI BUMI SYAM & 313!\033[37m Jajalallahu khairan....!!\033[0m")
+        print("\n\033[37mTERIMAKASIH SUDAH MEMPERCAYAKAN AMANAHNYA MELALUI BUMI SYAM & 313!\033[33m Jajakallahu khairan....!!\033[0m")
         break
     else:
         print("Pilihan tidak valid. Silakan masukkan angka 1 hingga 4.")
