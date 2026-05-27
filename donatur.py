@@ -41,6 +41,7 @@ while True:
             daftar_donasi.append({
                 "nama": nama,
                 "jumlah": jumlah
+                "no: Rek": no: Rek
             })
             print("Data donatur berhasil ditambahkan!")
         except ValueError:
