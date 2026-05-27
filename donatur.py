@@ -50,7 +50,7 @@ while True:
             print("Input jumlah uang harus berupa angka (integer) tanpa titik/koma!\033[0m")
 
     elif pilihan == '2':
-        print("\n--- Daftar Donatur ---")
+        print("\033[38;5;220m\n--- Daftar Donatur ---")
         if not daftar_donasi:
             print("Belum ada data donatur yang tercatat.")
         else:
@@ -64,7 +64,7 @@ while True:
             print("-" * 35)
 
     elif pilihan == '3':
-        print("\n--- Rekapitulasi Donasi ---")
+        print("\033[38;5;220m\n--- Rekapitulasi Donasi ---")
         if not daftar_donasi:
             print("Belum ada data donasi untuk direkap.")
         else:
