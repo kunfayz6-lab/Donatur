@@ -42,9 +42,9 @@ while True:
                 "nama": nama,
                 "jumlah": jumlah
             })
-            print("Data donatur berhasil ditambahkan!")
+            print("\033[38;5;220mData donatur berhasil ditambahkan!")
         except ValueError:
-            print("Input jumlah uang harus berupa angka (integer) tanpa titik/koma!")
+            print("Input jumlah uang harus berupa angka (integer) tanpa titik/koma!\033[0m")
 
     elif pilihan == '2':
         print("\n--- Daftar Donatur ---")
