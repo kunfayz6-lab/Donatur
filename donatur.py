@@ -17,11 +17,11 @@ print("""
 
 # Script Manajemen Daftar Donatur dan Sumbangan
 def tampilkan_menu():
-    print("\n=== MENU MANAJEMEN DONASI ===")
+    print("\033[38;5;39m\n=== MENU MANAJEMEN DONASI ===")
     print("1. Tambah Data Donatur")
     print("2. Lihat Daftar Donatur & Donasi")
     print("3. Lihat Total dan Rata-rata Donasi")
-    print("4. Keluar")
+    print("4. Keluar\033[0m")
 
 # Inisialisasi list untuk menyimpan data dictionary
 daftar_donasi = []
@@ -35,7 +35,7 @@ while True:
         nama = input("\033[33mNama Donatur : ")
         try:
             # Memastikan input berupa angka (integer)
-            jumlah = int(input("\033[38;5;220mJumlah Uang Sumbangan (Rp): "))
+            jumlah = int(input("\033[37mJumlah Uang Sumbangan (Rp): "))
             
             # Simpan data ke dalam list
             daftar_donasi.append({
