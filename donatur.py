@@ -41,7 +41,7 @@ while True:
             daftar_donasi.append({
                 "nama": nama,
                 "jumlah": jumlah,
-                "no_rek": no_Rek,
+                "no_rek": ,
                 "a/n": a/n
             })
             print("Data donatur berhasil ditambahkan!")
