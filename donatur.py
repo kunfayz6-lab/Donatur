@@ -40,8 +40,9 @@ while True:
             # Simpan data ke dalam list
             daftar_donasi.append({
                 "nama": nama,
-                "jumlah": jumlah
-                "no: Rek": no: Rek
+                "jumlah": jumlah,
+                "no_rek": no_Rek,
+                "a/n": a/n
             })
             print("Data donatur berhasil ditambahkan!")
         except ValueError:
